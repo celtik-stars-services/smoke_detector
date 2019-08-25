@@ -8,9 +8,9 @@ int lpg, co, smoke;
 MQ2 mq2(Analog_Input);
 
 // Update these with values suitable for your network.
-const char* ssid = "dlink-5060";
-const char* password = "ge06nity90";
-const char* mqtt_server = "192.168.0.186";
+const char* ssid = "ssid";
+const char* password = "pass";
+const char* mqtt_server = "192.168.0.2";
 
 void setup(){
   Serial.begin(9600);
